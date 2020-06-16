@@ -1,0 +1,270 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+.navbar{
+display: flex;
+align-items: center;
+position: sticky;
+cursor: pointer;
+top: 0px;
+}
+.navbar-list{
+display: flex;
+align-items: center;
+/*justify-content: center;* It takes the navbar in center*/
+}
+.navbar-list li{
+padding: 15px 35px;
+list-style: none;
+display: flex;
+font-family: "Amatic SC", sans-serif;
+font-size: 24px!important;
+}
+.navbar-list li a{
+text-decoration: none;
+color:white;
+}
+.navbar-list li a:hover{
+color: gray;
+}
+.background{
+background: rgb(0,0,0,0.7) url(first.jpg);
+background-size: cover;
+background-blend-mode: darken;
+}
+.height{
+	height: 100vh;
+}
+.para{
+color: white;
+}
+.secOne{
+height: 100vh;
+}
+.main-box{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 90%;
+max-width: 50%;
+margin: auto;
+}
+.first-half{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 80%;
+flex-direction: column;
+}
+.paraOne{
+font-size: 80px;
+font-family: "Amatic SC", sans-serif;
+text-align: center;
+color: white;
+width: 300px;
+}
+.btn1{
+padding: 8px 16px;
+border:none;
+background-color: black;
+color: white;
+font-family: "Amatic SC", sans-serif;
+font-size: 35px;
+margin-top: 15px;
+cursor: pointer;
+}
+.btn1:hover{
+background-color: gray;
+}
+.Time{
+display: inline-block;
+background-color: black;
+border:2px solid black;
+color: white;
+padding: 5px 15px;
+font-family: "Amatic SC", sans-serif;
+margin: 10px;
+font-size: 25px;
+}
+.Heading{
+text-align: center;
+margin: 50px;
+font-size: 60px;
+font-family: "Amatic SC", sans-serif;
+}
+.secTwo{
+display: flex;
+justify-content: center;
+align-items:center;
+max-width: 70%;
+margin: auto;
+}
+.left{
+	flex-direction: row-reverse;
+}
+.large-font{
+color: black;
+font-size: 30px;
+padding-bottom:10px;
+font-family: "Amatic SC", sans-serif;
+font-weight: 900;
+
+}
+.small-font{
+font-size: 20px;
+font-family: "Amatic SC", sans-serif;
+font-weight: 200px;
+}
+.abt-font{
+color: white;
+font-size: 25px;
+}
+.thumbnil img{
+width: 300px;
+border:2px solid white;
+border-radius: 15px;
+vertical-align: middle;
+margin: 15px;
+}
+.secThree{
+background-color: #964141;
+height: 1050px;
+}
+.text-center{
+text-align: center;
+font-family: "Amatic SC", sans-serif;
+padding: 50px;
+font-size: 60px;
+}
+.abt-sec{
+display: flex;
+justify-content: center;
+align-items: center;
+max-width: 60%;
+margin: auto;
+}
+.owner-img img{
+width: 200px;
+border: 2px solid white;
+border-radius: 50%;
+vertical-align: middle;
+margin: 15px;
+}
+.abt-pizza img{
+width: 100%;
+margin-top: 20px;
+}
+.timing{
+display: flex;
+align-items: center;
+max-width: 60%;
+margin: auto;
+}
+.sec-four-div1 img{
+width: 100%;
+filter: grayscale(75%);
+vertical-align: middle;
+height: auto;
+}
+.sec-five{
+background-color: gray;
+height: 1000px;
+}
+.white{
+color: white;
+}
+.sec-five-div1{
+max-width: 70%;
+margin: auto;
+}
+.sec-five-p{
+font-family: "Amatic SC", sans-serif;
+font-size: 36px;
+color: white;
+padding: 50px 0px;
+margin: 15px;
+}
+input{
+width: 100%;
+padding: 20px;
+border:none;
+font-size: 25px;
+margin: 15px;
+font-family: "Amatic SC", sans-serif;
+font-weight: bold;
+}
+.send-btn{
+width: 104%;
+padding: 20px;
+margin: 15px;
+font-size: 25px;
+font-family: cursive;
+font-weight: bold;
+}
+.btn2{
+	padding: 12px 25px;
+    font-size: 25px;
+    background-color: white;
+    color: black;
+    margin-left: 40%;
+    border: none;
+    font-family:"Amatic SC", sans-serif; 
+}
+
+@media only screen and (max-width: 1030px){
+
+.navbar-list{
+	visibility: collapse;
+	position: absolute;
+}
+.navbar-list li{
+padding: 15px 24px;
+
+}
+
+.btn1{
+	padding: 16px 4px;
+	font-size: 25px;
+}
+.secTwo{
+	flex-direction:column;
+	max-width: 85%;
+}
+.left{
+	flex-direction: column;
+}
+.small-font{
+	padding: 12px;
+}
+.large-font{
+	padding:0px 12px;
+}
+.thumbnil img{
+	width: 260px;
+
+}
+.abt-sec{
+	flex-direction: column;
+	max-width: 80%;
+}
+.secThree{
+	height: 950px;
+}
+.sec-five-p{
+    font-size: 24px!important;
+    padding: 25px 0px;
+    margin: 0px;
+}
+.sec-five-div1{
+	max-width: 80%;
+}
+input{
+    padding: 15px 0px;
+    font-size: 20px;
+    margin: 0px 0px 15px;
+}
+.sec-five{
+	height: 680px;
+}
+}

@@ -1,0 +1,57 @@
+
+@media only screen and (max-width: 1030px){
+
+.navbar-list{
+	visibility: collapse;
+	position: absolute;
+}
+.navbar-list li{
+padding: 15px 24px;
+
+}
+
+.btn1{
+	padding: 16px 4px;
+	font-size: 25px;
+}
+.secTwo{
+	flex-direction:column;
+	max-width: 85%;
+}
+.left{
+	flex-direction: column;
+}
+.small-font{
+	padding: 12px;
+}
+.large-font{
+	padding:0px 12px;
+}
+.thumbnil img{
+	width: 260px;
+
+}
+.abt-sec{
+	flex-direction: column;
+	max-width: 80%;
+}
+.secThree{
+	height: 950px;
+}
+.sec-five-p{
+    font-size: 24px!important;
+    padding: 25px 0px;
+    margin: 0px;
+}
+.sec-five-div1{
+	max-width: 80%;
+}
+input{
+    padding: 15px 0px;
+    font-size: 20px;
+    margin: 0px 0px 15px;
+}
+.sec-five{
+	height: 600px;
+}
+}
